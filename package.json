@@ -1,0 +1,29 @@
+{
+  "name": "espn-ff",
+  "version": "0.0.1",
+  "description": "ESPN Fantasy Football Scraper",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprice/node-espn-ff.git"
+  },
+  "keywords": [
+    "espn",
+    "fantasy",
+    "football"
+  ],
+  "author": "pprice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pprice/node-espn-ff/issues"
+  },
+  "homepage": "https://github.com/pprice/node-espn-ff#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.2",
+    "request": "^2.79.0"
+  }
+}
