@@ -18,7 +18,7 @@ const EspnFF = require('espn-ff');
 const scraper = new EspnFF({
     leagueId: 12345 /* Your league id */,
     cookie: '<Snag this from chrome>'
-})'
+});
 
 scraper.getFantasyTeams((err, teams) => {
     console.log('TEAMS');
@@ -26,7 +26,7 @@ scraper.getFantasyTeams((err, teams) => {
 });
 
 scraper.getRoster(1, (err, roser) => {
-    console.log('Team 1 roster");
+    console.log('Team 1 roster');
     console.dir(roster);
 });
 
